@@ -8,6 +8,14 @@
 #define SYM  2
 #define ADJ  3
 
+&mt {
+    quick-tap-ms = <175>;
+};
+
+&lt {
+    quick-tap-ms = <175>;
+};
+
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
